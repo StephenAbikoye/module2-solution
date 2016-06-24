@@ -1,9 +1,199 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <title>Food, LLC</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+
+  </head>
 <body>
-<p>This is test</p>
+
+<header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header>
+
+          <div class="navbar-brand">
+            <a href="index.html" id="companyname"><h1>Food, LLC</h1></a>
+
+      <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    </div>
+
+     <!-- Collect the nav links, forms, and other content for toggling -->
+    <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+            <li>
+              <a href="Chicken.html">
+                <span id="chicken">Chicken</span><br></a>
+            </li>
+            <li> 
+              <a href="beef.html">
+                <span id="beef">Beef</span><br></a>
+            </li>
+            <li>
+              <a href="Suchi.html">
+                <span id="sushi">Suchi</span><br></a>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+      </nav>
+      </header>
+
+
+      <div class="container">
+      
+
+      <div class="row" id="fullpage">
+      	<h2 class="text-center">Our Menu</h2>
+      	<section class="fullpage col-md-12 col-sm-12 col-xs-12">
+      	<p id="chic" class="text-center">CHICKEN</p><p>Services also provides fax servers with the ability to send and receive faxes while also giving
+the administrator the ability to manage fax resources such as jobs, settings, reports,
+and fax devices on the fax server.
+Remote Desktop Services Remote Desktop Services allows for faster desktop and application
+deployments to any device, improving remote user effectiveness while helping to keep
+critical data secure. Remote Desktop Services allows for both a virtual desktop infrastructure
+(VDI) and session-based desktops, allowing users to connect from anywhere.
+Security and Protection Windows Server 2012 R2 has many new and improved security
+features for your organization. These security features include Access Control, AppLocker,
+BitLocker, Credential Locker, Kerberos, NTLM, passwords, security auditing, smart cards,
+and Windows Biometric Framework (WBF).
+Telemetry The Telemetry service allows the Windows Feedback Forwarder to send
+feedback to Microsoft automatically by deploying a Group Policy setting to one or more
+organizational units. Windows Feedback Forwarder is available on all editions of Windows
+Server 2012 R2, including Server Core.
+Volume Activation Windows Server 2012 R2 Volume Activation will help your organization
+benefit from using this service to deploy and manage volume licenses for a medium to
+large number of computers.
+Web Server (IIS) The Web Server (IIS) role in Windows Server 2012 R2 allows an administrator
+to set up a secure, easy-to-manage, modular, and extensible platform for reliably
+hosting websites, services, and applications.
+Windows Deployment Services Windows Deployment Services allows an administrator to
+install a Windows operating system over the network. Administrators do not have to install
+each operating system directly from a CD or DVD.
+Windows Server Backup Feature The Windows Server Backup feature gives an organization
+a way to back up and restore Windows servers. You can use Windows Server Backup
+to back up the entire server (all volumes), selected volumes, the system state, or specific files
+or folders.
+Windows Server Update Services Windows Server Update Services (WSUS) allows
+administrators to deploy application and operating system updates. By deploying WSUS,
+administrators have the ability to manage updates that are released through Microsoft
+Update to computers in their network. This feature is integrated with the operating system
+as a server role on a Windows Server 2012 R2 system. More Robust Installation Routines If a typical setup program is aborted during the
+software installation process, the results are unpredictable. If the actual installation hasn’t
+yet begun, then the installer generally removes any temporary files that may have been
+created. However, if the file copy routine starts before the system encounters an error,
+it is likely that the files will not be automatically removed from the operating system. In
+contrast, the Windows Installer allows you to roll back any changes when the application
+setup process is aborted.
+Ability to Use Elevated Privileges Installing applications usually requires the user to
+have Administrator permissions on the local computer because file system and registry
+changes are required. When installing software for network users, system administrators
+have two options. First, they can log off of the computer before installing the software and
+then log back on as a user who has Administrator permissions on the local computer. This
+method is tedious and time-consuming. The second option is to give users Administrator
+permissions temporarily on their own machines. This method could cause security
+problems and requires the attention of a system administrator.
+Through the use of the Installer service, the Windows Installer is able to use temporarily
+elevated privileges to install applications. This allows users, regardless of their security
+settings, to execute the installation of authorized applications. This saves time and
+preserves security.
+Support for Repairing Corrupted Applications Regardless of how well a network
+environment is managed, critical files are sometimes lost or corrupted. Such problems
+can prevent applications from running properly and can cause crashes. Windows Installer
+packages provide you with the ability to verify the installation of an application and, if
+necessary, replace any missing or corrupted files. This support saves time and lessens enduser
+headaches associated with removing and reinstalling an entire application to replace
+just a few files.
+Prevention of File Conflicts Generally, different versions of the same files should be
+compatible with each other. In the real world, however, this isn’t always the case. A classic
+problem in the Windows world is the case of one program replacing DLLs that are used by
+several other programs. Windows Installer accurately tracks which files are used by certain
+programs and ensures that any shared files are not improperly deleted or overwritten.
+Automated Installations A typical application setup process requires end users or system
+administrators to respond to several prompts. For example, a user may be able to choose
+the program group in which icons will be created and the file system location to which the
+program will be installed. Additionally, they may be required to choose which options are
+installed. Although this type of flexibility is useful, it can be tedious when you are rolling
+out multiple applications. By using features of the Windows Installer, however, users are
+able to specify setup options before the process begins. This allows system administrators
+to ensure consistency in installations, and it saves users time.
+Advertising and On-Demand Installations One of the most powerful features of the
+Windows Installer is its ability to perform on-demand software installations. Prior to the In the following sections, you’ll look at how the processes of assigning and publishing
+applications can make life easier for IT staff and users alike. The various settings for
+assigned and published applications are managed through the use of GPOs.
+Assigning Applications
+Software applications can be assigned to users and computers. Assigning a software package
+makes the program available for automatic installation. The applications advertise their
+availability to the affected users or computers by placing icons within the Programs folder
+of the Start menu for Windows 8 (and before) and Windows Server 2012, and within the
+Apps area on Windows 8.1 and Windows Server 2012 R2.
+When applications are assigned to a user, programs will be advertised to the user
+regardless of which computer they are using. That is, icons for the advertised program will
+appear regardless of whether the program is installed on that computer. If the user clicks
+an icon for a program that has not yet been installed on the local computer, the application
+will automatically be accessed from a server and it will be installed.
+When an application is assigned to a computer, the program is made available to any
+users of the computer. For example, all users who log on to a computer that has been
+assigned Microsoft Office 2013 will have access to the components of the application. If
+the user did not previously install Microsoft Office 2013, they will be prompted for any
+required setup information when the program first runs.
+Generally, applications that are required by the vast majority of users should be assigned
+to computers. This reduces the amount of network bandwidth required to install applications
+on demand and improves the end-user experience by preventing the delay involved when
+installing an application the first time it is accessed. Any applications that may be used by
+only a few users (or those with specific job tasks) should be assigned to users.
+Publishing Applications
+When applications are published, they are advertised, but no icons are automatically created.
+Instead, the applications are made available for installation using the Add Or Remove
+Programs icon in Control Panel.
+</p></section>
+
+
+
+      	</div>
+      	</div>
+
+
+      </div>
+      	
+
+
+
+      </div>
+
+
+
+
+
+
+
+
+ 
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
